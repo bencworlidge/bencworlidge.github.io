@@ -1,0 +1,50 @@
+/* COLORS 
+#20232A black
+#ACBEBE grey
+#F4F4EF white
+#A01D26 red */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4ef;
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-family: "PT Sans";
+  font-weight: bold;
+  color: #20232a;
+}
+
+p {
+  font-family: "PT Sans";
+  color: #20232a;
+}
+
+html,
+body,
+.hero {
+  height: 100%;
+}
+
+i {
+  color: #a01d26;
+  font-size: 30px;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+}
+
+.about i {
+  font-size: 4rem;
+  margin: 1rem;
+}
