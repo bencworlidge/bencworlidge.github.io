@@ -24,7 +24,8 @@ svg {
 h1,
 h2,
 h3,
-h5 {
+h5,
+h6 {
   font-family: "PT Sans";
   font-weight: bold;
   color: #20232a;
@@ -96,5 +97,12 @@ i {
 }
 
 hr {
-  border: 20px;
+  height: 5px;
+  background-color: #a01d26;
+  border: none;
+}
+
+.card,
+.card-reveal {
+  background-color: #f4f4ef;
 }
