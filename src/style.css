@@ -14,6 +14,13 @@ body {
   background-color: #f4f4ef;
 }
 
+svg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  background-size: cover;
+}
+
 h1,
 h2,
 h3,
@@ -47,4 +54,47 @@ i {
 .about i {
   font-size: 4rem;
   margin: 1rem;
+}
+
+#vector1 {
+  animation: right 1s ease;
+}
+
+@keyframes right {
+  from {
+    transform: translate(-20000px, -7000px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+#vector2 {
+  animation: left 1s ease;
+}
+
+@keyframes left {
+  from {
+    transform: translate(20000px, -5000px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+#cv-button {
+  animation: opacity 2s ease;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+hr {
+  border: 20px;
 }
