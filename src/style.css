@@ -31,6 +31,10 @@ h6 {
   color: #20232a;
 }
 
+h1 {
+  text-shadow: 2px 2px #f4f4ef;
+}
+
 p {
   font-family: "PT Sans";
   color: #20232a;
@@ -100,6 +104,7 @@ hr {
   height: 5px;
   background-color: #a01d26;
   border: none;
+  width: 100%;
 }
 
 .card,
@@ -109,4 +114,25 @@ hr {
 
 .contact i {
   color: #20232a;
+}
+
+#particles-js {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f4f4ef;
+  z-index: -2;
+}
+
+.hero-arrow {
+  position: absolute;
+  bottom: 10px;
+  left: 50vw;
+  color: #20232a;
+  font-size: xx-large;
+  text-shadow: 2px 2px #f4f4ef;
+}
+
+.spacer {
+  height: 3rem;
 }
